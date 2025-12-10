@@ -1,0 +1,26 @@
+{
+  "name": "valorant-pro-blog",
+  "version": "1.0.0",
+  "description": "Professional Valorant Gaming Blog - Guides, patch analysis, and competitive tips",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "python -m http.server 5000",
+    "build": "echo 'Static site - no build required'",
+    "test": "echo 'Running tests...'"
+  },
+  "keywords": [
+    "valorant",
+    "gaming",
+    "blog",
+    "guides",
+    "esports",
+    "competitive"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/valorant-pro-blog"
+  }
+}

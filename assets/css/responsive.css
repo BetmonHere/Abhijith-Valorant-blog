@@ -1,0 +1,288 @@
+/* ==================== TABLET (768px) ==================== */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+
+    .nav-menu {
+        display: none;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        background-color: var(--bg-secondary);
+        padding: 20px;
+        gap: 1rem;
+        border-bottom: 2px solid var(--primary);
+        z-index: 999;
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: flex;
+    }
+
+    .hero {
+        min-height: 500px;
+        padding: 40px 0;
+    }
+
+    .hero-author {
+        margin-bottom: 20px;
+    }
+
+    .author-avatar {
+        width: 100px;
+        height: 100px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .hero-buttons .btn {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .stat-card {
+        padding: 20px;
+    }
+
+    .stat-card h3 {
+        font-size: 2rem;
+    }
+
+    .categories-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .featured-article {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        padding: 25px;
+    }
+
+    .featured-article img {
+        height: 250px;
+    }
+
+    .featured-content h3 {
+        font-size: 1.5rem;
+    }
+
+    .category-title {
+        font-size: 1.5rem;
+    }
+
+    .articles-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .newsletter-form {
+        flex-direction: column;
+    }
+
+    .newsletter-form input,
+    .newsletter-form button {
+        width: 100%;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+}
+
+/* ==================== MOBILE (480px) ==================== */
+@media (max-width: 480px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .logo-name {
+        font-size: 1.1rem;
+    }
+
+    .logo-subtitle {
+        font-size: 0.65rem;
+    }
+
+    .nav-wrapper {
+        height: 60px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+        margin-bottom: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    h4 {
+        font-size: 1.1rem;
+    }
+
+    .hero {
+        min-height: 400px;
+    }
+
+    .hero-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .hero-content p {
+        font-size: 0.95rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .author-avatar {
+        width: 80px;
+        height: 80px;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+
+    .btn-small {
+        padding: 6px 12px;
+        font-size: 0.8rem;
+    }
+
+    .stats-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .stat-card {
+        padding: 20px;
+    }
+
+    .stat-card h3 {
+        font-size: 1.8rem;
+    }
+
+    .stat-card p {
+        font-size: 0.85rem;
+    }
+
+    .category-card {
+        padding: 25px 15px;
+    }
+
+    .category-icon {
+        font-size: 2.5rem;
+    }
+
+    .featured-article {
+        padding: 15px;
+    }
+
+    .featured-article img {
+        height: 180px;
+    }
+
+    .featured-content h3 {
+        font-size: 1.3rem;
+        margin: 15px 0;
+    }
+
+    .featured-content p {
+        font-size: 0.95rem;
+    }
+
+    .featured-meta {
+        flex-direction: column;
+        gap: 15px;
+        align-items: flex-start;
+    }
+
+    .category-title {
+        font-size: 1.3rem;
+        margin-bottom: 25px;
+    }
+
+    .article-card {
+        margin-bottom: 15px;
+    }
+
+    .article-body {
+        padding: 15px;
+    }
+
+    .article-body h4 {
+        font-size: 1.05rem;
+    }
+
+    .article-footer {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .newsletter {
+        padding: 50px 0;
+    }
+
+    .newsletter h2 {
+        font-size: 1.4rem;
+        margin-bottom: 10px;
+    }
+
+    .newsletter p {
+        font-size: 0.95rem;
+    }
+
+    .newsletter-note {
+        font-size: 0.85rem;
+    }
+
+    .footer {
+        padding: 40px 0 15px;
+    }
+
+    .footer-section h4 {
+        font-size: 1rem;
+    }
+
+    .social-links {
+        gap: 8px;
+    }
+
+    .social-links a {
+        padding: 6px 10px;
+        font-size: 0.8rem;
+    }
+}
